@@ -1,0 +1,90 @@
+* {
+    font-family: Gara;
+}
+
+header {
+    background-color: tomato;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: 80px;
+}
+
+main {
+    width: 80%;
+    height: 600px;
+}
+
+aside {
+    background-color: Coral;
+    width: 20%;
+    height: 680px;
+    float: right;
+    margin-top: -695px;    
+}
+
+footer {
+    background-color: tomato;
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin-top: -15px;
+}
+
+img {
+    width: 70px;
+    height: 70px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.chat {
+    border: solid 1px tomato;
+    margin: 15px;
+    height: 470px;
+    overflow: scroll;
+}
+
+.message {
+    border-radius: 5px;
+    width: 90%;
+    height: 70px;
+    margin: 2%;
+    padding: 3px;
+}
+
+#message-jolanta {
+    background-color: #EEE;
+    float: left;
+    display: flex;
+    flex-direction: row;
+}
+
+#message-krzysztof {
+    background-color: #CCC;
+    float: left;
+    text-align: right;
+    display: flex;
+    justify-content: right;
+}
+
+button {
+    background-color: tomato;
+    border: solid 1px darkred;
+    padding: 5px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+input {
+    width: 500px;
+}

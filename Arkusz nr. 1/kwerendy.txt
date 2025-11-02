@@ -1,0 +1,17 @@
+-- Zapytanie 1: wybierające nazwy wycieczek, których początek jest w Muszynie lub Wieliczce
+SELECT nazwa 
+FROM wycieczki 
+WHERE poczatek IN ('Muszyna', 'Wieliczka');
+
+-- Zapytanie 2: wybierające pola nazwa, opis, poczatek z tabeli wycieczki oraz pole zrodlo z tabeli zdjecia, korzystając z relacji
+SELECT w.nazwa, w.opis, w.poczatek, z.zrodlo
+FROM wycieczki w
+JOIN zdjecia z ON w.id_wycieczki = z.id_wycieczki;
+
+-- Zapytanie 3: zliczające liczbę wycieczek wpisanych do tabeli wycieczki
+SELECT COUNT(*) AS liczba_wycieczek
+FROM wycieczki;
+
+-- Zapytanie 4: modyfikujące strukturę tabeli wycieczki, dodając kolumnę ocena typu całkowitego
+ALTER TABLE wycieczki
+ADD COLUMN ocena INT;
