@@ -1,0 +1,76 @@
+* {
+    font-family: Helvetica;
+}
+
+header, footer {
+    width: 99%;
+    background-color: sienna;
+    color: white;
+    padding: 10px;
+}
+
+footer {
+    float: left;
+    text-align: center;
+}
+
+header {
+    text-align: center;
+
+}
+
+nav, aside {
+    background-color: navajowhite;
+    width: 15%;
+    height: 700px;
+}
+
+nav {
+    float: left;
+    width: 15%;
+}
+
+aside {
+    float: right;
+}
+
+main {
+    width: 70%;
+    height: 700px;
+    overflow: auto;
+    float: left;
+}
+
+img {
+    position: relative;
+    width: 100%;
+}
+
+h3, p, a {
+    opacity: 0;
+    padding-top: 5%;
+}
+
+p {
+    padding-top: 30%;
+}
+
+a {
+    padding-top: 70%;
+    padding-left: 70%;
+    background-color: sienna;
+    margin: 15px;
+}
+
+/* .image_container {
+    position: relative;
+    text-align: center;
+    color: white;
+} */
+
+/* .image_container h3 {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+} */
+
